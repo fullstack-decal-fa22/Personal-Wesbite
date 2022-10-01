@@ -1,0 +1,185 @@
+#name {
+    color: rgb(117, 122, 117);
+    position: relative;
+    left: 240px;
+    top: 425px;
+    font-size: 60px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+ 
+
+ * {
+   overflow:scroll;
+   text-align: left;
+ }
+
+ .headshot {
+   padding-top: 100px;
+   flex-direction: row;
+   display: flex;
+   height: 300px;
+   width: 500px;
+   position: absolute;
+   left: 200px;
+   top: 100px;
+   margin: 50px;
+ }
+
+ .contact-buttons{
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   height: 300px;
+   width: 500px;
+   position: absolute;
+   left: 750px;
+   top: 1460px;
+ }
+ 
+
+
+
+ button{
+  width: 50px;
+  height: 50px;
+ }
+
+ .location-tag1{
+   background-color: white;
+   position: absolute;
+   left: 250px;
+   top: 530px;
+ }
+
+  .grow { 
+   transition: all .2s ease-in-out; 
+   }
+   
+   .grow:hover { 
+   transform: scale(1.1); 
+   }
+
+
+ .location-tag2{
+   background-color: white;
+   position: absolute;
+   left: 420px;
+   top: 530px;
+ }
+
+ .about-me{
+   padding-top: 100px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   left: 700px;
+   top: 90px;
+   margin: 50px;
+   position:absolute
+ }
+ 
+ 
+ ul{
+   margin-left: 0px;
+   text-align:left;
+ }
+ 
+ .tm {
+   position: absolute;
+   left: 1500px;
+   top: 0px;
+ }
+
+ .featured-work{
+    color: rgb(117, 122, 117);
+    position: absolute;
+    left: 650px;
+    top: 700px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ }
+
+
+ .git{
+   width: 350px;
+   height: 250px;
+   position:absolute;
+   left: 200px;
+   top:1000px;
+
+
+ }
+ 
+ .tree{
+   width: 350px;
+   height: 250px;
+   position:absolute;
+   left: 640px;
+   top:1000px;
+   padding-bottom: 100px;
+
+ }
+
+ .virus{
+   width: 350px;
+   height: 250px;
+   position:absolute;
+   left: 1100px;
+   top:1000px;
+ }
+
+
+.gitlet{
+   color:rgb(81, 78, 78);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   left: 155px;
+   top: 820px;
+   margin: 50px;
+   position:absolute
+}
+
+
+.tree-hunt{
+   color:rgb(81, 78, 78);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   left: 590px;
+   top: 820px;
+   margin: 50px;
+   position:absolute
+}
+
+.virus-text{
+   color:rgb(81, 78, 78);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   left: 1050px;
+   top: 820px;
+   margin: 50px;
+   position:absolute
+}
+
+.title{
+    color: rgb(117, 122, 117);
+    position: absolute;
+    left: 700px;
+    top: 80px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact{
+    color: rgb(117, 122, 117);
+    padding-bottom: 100px;
+    position: absolute;
+    left: 700px;
+    top: 1340px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form {
+   padding-bottom: 100px;
+   position: absolute;
+   left: 470px;
+   top: 1540px;
+}
